@@ -1,0 +1,20 @@
+{
+  "bot_name": "NeoMoney Onboarding Assistant",
+  "version": "1.0.0",
+  "model_settings": {
+    "model": "gpt-4o",
+    "temperature": 0.3,
+    "max_tokens": 1000
+  },
+  "escalation_points": {
+    "hr": "hr@neomoney.example.com",
+    "it_support": "it-helpdesk@neomoney.example.com",
+    "manager": "your.direct.manager@neomoney.example.com (указывается индивидуально при онбординге)"
+  },
+  "github_sync": {
+    "enabled": true,
+    "repo": "neomoney/onboarding-bot-config",
+    "branch": "main",
+    "sync_interval_minutes": 60
+  }
+}
